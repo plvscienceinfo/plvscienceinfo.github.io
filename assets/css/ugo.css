@@ -1,0 +1,29 @@
+@font-face{
+	font-family: 'UgoColor';
+	src: url('../fonts/UGO-COLOR.ttf');
+}
+
+@font-face{
+	font-family: 'UgoDColor';
+	src: url('../fonts/UGO-DCOLOR.ttf');
+}
+
+@font-face{
+	font-family: 'UgoDPois';
+	src: url('../fonts/UGO-DPOIS.ttf');
+}
+
+@font-face{
+	font-family: 'UgoDRain';
+	src: url('../fonts/UGO-DRAIN.ttf');
+}
+
+@font-face{
+	font-family: 'UgoEngreved';
+	src: url('../fonts/UGO-ENGREVED.ttf');
+}
+
+@font-face{
+	font-family: 'UgoLine';
+	src: url('../fonts/UGO-LINE.ttf');
+}

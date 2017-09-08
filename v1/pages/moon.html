@@ -1,0 +1,67 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>Science Infographics</title>
+		<link href="../bower_components/fonts.css" rel="stylesheet">
+		
+		<link type="text/css" rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body style="background-image: linear-gradient(to left, #041530 0%, #537895 100%);">
+		<div class="fixed-action-btn">
+			<a class="btn-floating btn-large waves-effect waves-light blue" href="../">
+				<i class="large material-icons">home</i>
+			</a>
+		</div>
+		<div class="parallax-container" style="text-align:center; z-index: 10;">
+			<div class="parallax"><img src="../assets/images/moon/Wall1.png"></div>
+		</div>
+		<div id="particles-js" style="
+			position:fixed;
+			top:0;
+			right:0;
+			bottom:0;
+			left:0;
+			z-index: -10;"></div>
+		<div class="container" style="position: relative;">
+			<h3 style="color: white;">Moon Revolves Around the Earth</h3>
+			<img src="../assets/images/moon/orbit.png" style="width: 100%;">
+			<h3 style="color: white;">Phases of the Moon</h3>
+			<img src="../assets/images/moon/phases.png" style="width: 100%;">
+		</div>
+		<footer class="page-footer" style="background-color: #041530; ">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Grade 5 Science Infographics</h5>
+                <p class="grey-text text-lighten-4">Created by Alexis Munsayac and Jessica Celine Saldito</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Pages</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="moon.html">Moon Revolves Around the Earth</a></li>
+                  <li><a class="grey-text text-lighten-3" href="core.html">The Interior of the Earth</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+			Copyright 2017 Pamantasan ng Lungsod ng Valenzuela 
+            </div>
+          </div>
+        </footer>
+		<script src="../bower_components/jquery/dist/jquery.js"></script>
+		<script type="text/javascript" src="../bower_components/materialize/dist/js/materialize.min.js"></script>
+		<script type="text/javascript" src="../bower_components/particles.js/particles.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.parallax').parallax();
+			});
+			
+			particlesJS.load('particles-js', '../assets/particles/stars.json');
+
+		</script>
+    </body>
+</html>
